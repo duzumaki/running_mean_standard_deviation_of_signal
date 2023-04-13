@@ -95,4 +95,6 @@ int main() {
     cout << running_sd << "\n";
     cout << mean_of_samples << "\n";
     cout << sd << endl;
+
+    sf_close(file);
 }
